@@ -52,6 +52,13 @@
             #endregion
 
 
+            #region Task02
+            //Console.WriteLine("--- Short Report ---");
+            //PrintReport(catalog, p => Console.WriteLine($"{p.Name} - ${p.Price}"));
+
+            //Console.WriteLine("\n--- Detailed Report ---");
+            //PrintReport(catalog, p => Console.WriteLine($"[{p.Category}] {p.Name} | Price: ${p.Price} | Stock: {p.Stock}")); 
+            #endregion
         }
         #region Task01
         //public static List<Product> SearchProducts(List<Product> catalog, Func<Product, bool> filter)
@@ -68,7 +75,15 @@
         //}
         #endregion
 
-
+        #region Task02
+        //public static void PrintReport(List<Product> catalog, Action<Product> action)
+        // {
+        //     foreach (var p in catalog)
+        //     {
+        //         action(p);
+        //     }
+        // } 
+        #endregion
 
 
     }
