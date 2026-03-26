@@ -59,6 +59,26 @@
             //Console.WriteLine("\n--- Detailed Report ---");
             //PrintReport(catalog, p => Console.WriteLine($"[{p.Category}] {p.Name} | Price: ${p.Price} | Stock: {p.Stock}")); 
             #endregion
+
+
+            #region Task03
+            //Console.WriteLine("--- Summary List ---");
+            //var summary = TransformProducts(catalog, p => $"{p.Name} (${p.Price})");
+            //foreach(var s in summary)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+
+            //Console.WriteLine("\n--- Price Labels ---");
+            //var label = TransformProducts(catalog, p => p.Price > 100 ? "Expensive!" : "Affordable");
+            //for (int i = 0; i < catalog.Count; i++)
+            //{
+            //    Console.WriteLine($"{catalog[i].Name}: {label[i]}");
+            //} 
+            #endregion
+
+
         }
         #region Task01
         //public static List<Product> SearchProducts(List<Product> catalog, Func<Product, bool> filter)
@@ -83,6 +103,23 @@
         //         action(p);
         //     }
         // } 
+        #endregion
+
+
+
+        #region Task03
+        //public static List<T> TransformProducts<T>(List<Product> catalog , Func<Product , T> fun)
+        //{
+        //    List<T> results = new List<T>();
+        //    foreach(var p in catalog)
+        //    {
+        //        results.Add(fun(p));
+        //    }
+        //    return results;
+
+
+
+        //} 
         #endregion
 
 
