@@ -78,6 +78,15 @@
             //} 
             #endregion
 
+            #region Task04
+            //Console.WriteLine("--- Low-Stock Alert ---");
+            //var filter = FilterProducts(catalog, p => p.Stock < 20);
+            //foreach(var p in filter)
+            //{
+            //    Console.WriteLine($"[LOW STOCK] {p.Name}: only {p.Stock} left!");
+            //} 
+            #endregion
+
 
         }
         #region Task01
@@ -105,8 +114,6 @@
         // } 
         #endregion
 
-
-
         #region Task03
         //public static List<T> TransformProducts<T>(List<Product> catalog , Func<Product , T> fun)
         //{
@@ -121,6 +128,22 @@
 
         //} 
         #endregion
+
+        #region Task04
+        //public static List<Product> FilterProducts(List<Product> catalog, Predicate<Product> predi)
+        //{
+
+        //    List<Product> results = new List<Product>();
+        //    foreach(var p in catalog)
+        //    {
+        //        if (predi(p))
+        //            results.Add(p);
+        //    }
+        //    return results;
+
+        //} 
+        #endregion
+
 
 
     }
